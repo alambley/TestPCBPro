@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name "ul_LFSPXO025560REEL")(type "KiCad")(uri "/home/alambley/pcb-parts/ul_LFSPXO025560REEL/KiCAD/2022-09-02_16-35-08/footprints.pretty")(options "")(descr ""))
+  (lib (name "ul_LAN8740A-EN")(type "KiCad")(uri "/home/alambley/pcb-parts/ul_LAN8740A-EN/KiCAD/2022-09-02_16-00-39/footprints.pretty")(options "")(descr ""))
+  (lib (name "ul_PIC32MX775F256L-80I-PT")(type "KiCad")(uri "/home/alambley/pcb-parts/ul_PIC32MX775F256L-80I-PT/KiCAD/2022-09-02_17-18-32/footprints.pretty")(options "")(descr ""))
+  (lib (name "ul_PTS647SK38SMTR2LFS")(type "KiCad")(uri "/home/alambley/pcb-parts/ul_PTS647SK38SMTR2LFS/KiCAD/2022-09-02_18-36-03/footprints.pretty")(options "")(descr ""))
+  (lib (name "ul_AZ1117EH-3-3TRG1")(type "KiCad")(uri "/home/alambley/pcb-parts/ul_AZ1117EH-3-3TRG1/KiCAD/2022-09-02_18-05-57/footprints.pretty")(options "")(descr ""))
+  (lib (name "10118192-0001LF")(type "KiCad")(uri "/home/alambley/pcb-parts/10118192-0001LF")(options "")(descr ""))
+  (lib (name "ul_J3011G21DNL")(type "KiCad")(uri "/home/alambley/pcb-parts/ul_J3011G21DNL/KiCAD/2022-09-02_16-17-20/footprints.pretty")(options "")(descr ""))
+  (lib (name "ul_PIC32MX775F512H-80I-PT")(type "KiCad")(uri "/home/alambley/pcb-parts/ul_PIC32MX775F512H-80I-PT/KiCAD/2022-09-02_15-57-07/footprints.pretty")(options "")(descr ""))
+  (lib (name "Lambley")(type "KiCad")(uri "/home/alambley/my-kicad-footprints/Lambley.pretty")(options "")(descr ""))
+)
