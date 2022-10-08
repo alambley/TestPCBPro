@@ -523,16 +523,16 @@
       (reference "C13") (unit 1) (value "470p") (footprint "Lambley:0603-1608M")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/b083d9f1-f680-4206-b000-e4120a1ebf9e"
-      (reference "C14") (unit 1) (value "1.0u") (footprint "Lambley:0603-1608M")
+      (reference "C14") (unit 1) (value "1u") (footprint "Lambley:0603-1608M")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/3d704c2d-64f2-4faa-b68b-585288facfc4"
-      (reference "C15") (unit 1) (value "1.0u") (footprint "Lambley:0603-1608M")
+      (reference "C15") (unit 1) (value "1u") (footprint "Lambley:0603-1608M")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/a9760e51-1316-47bc-973f-f5ab7847042e"
       (reference "C16") (unit 1) (value "0.1u") (footprint "Lambley:0603-1608M")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/517e42f4-3ba5-460b-b4bd-87118161c689"
-      (reference "C17") (unit 1) (value "1.0u") (footprint "Lambley:0603-1608M")
+      (reference "C17") (unit 1) (value "1u") (footprint "Lambley:0603-1608M")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/6987cee2-5ed1-4bc5-8a63-3ff82b74165a"
       (reference "C18") (unit 1) (value "0.1u") (footprint "Lambley:0603-1608M")
@@ -544,7 +544,7 @@
       (reference "C20") (unit 1) (value "12p") (footprint "Lambley:0603-1608M")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/fa057830-e23d-412d-bf09-62ace0e7417b"
-      (reference "C21") (unit 1) (value "1.0u") (footprint "Lambley:0603-1608M")
+      (reference "C21") (unit 1) (value "1u") (footprint "Lambley:0603-1608M")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/1ce84efb-bfd0-4e8d-a23d-d98be5d82893"
       (reference "C22") (unit 1) (value "12p") (footprint "Lambley:0603-1608M")
