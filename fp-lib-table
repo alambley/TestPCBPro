@@ -8,4 +8,5 @@
   (lib (name "ul_J3011G21DNL")(type "KiCad")(uri "/home/alambley/pcb-parts/ul_J3011G21DNL/KiCAD/2022-09-02_16-17-20/footprints.pretty")(options "")(descr ""))
   (lib (name "ul_PIC32MX775F512H-80I-PT")(type "KiCad")(uri "/home/alambley/pcb-parts/ul_PIC32MX775F512H-80I-PT/KiCAD/2022-09-02_15-57-07/footprints.pretty")(options "")(descr ""))
   (lib (name "Lambley")(type "KiCad")(uri "/home/alambley/my-kicad-footprints/Lambley.pretty")(options "")(descr ""))
+  (lib (name "ul_PIC32MX764F128L-I-PF")(type "KiCad")(uri "/home/alambley/pcb-parts/ul_PIC32MX764F128L-I-PF/KiCAD/2022-10-22_23-28-57/footprints.pretty")(options "")(descr ""))
 )

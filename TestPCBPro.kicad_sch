@@ -444,8 +444,8 @@
     (path "/44137c28-2258-47a5-b635-260660b262fa/cae980ba-a089-48a3-8286-f7dab99fbe85"
       (reference "#PWR0157") (unit 1) (value "GND") (footprint "")
     )
-    (path "/44137c28-2258-47a5-b635-260660b262fa/115cc9e0-0cbb-4906-aae5-182218e8a88c"
-      (reference "#PWR0158") (unit 1) (value "+3.3V") (footprint "")
+    (path "/44137c28-2258-47a5-b635-260660b262fa/68331111-3d3c-4f02-890f-975371174738"
+      (reference "#PWR0158") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/102c26a2-0734-47e3-b6e8-6f50eafea7e0"
       (reference "#PWR0159") (unit 1) (value "GND") (footprint "")
@@ -558,6 +558,9 @@
     (path "/44137c28-2258-47a5-b635-260660b262fa/4bfd4228-adc7-4438-98f5-f618242f3c70"
       (reference "C25") (unit 1) (value ".022u") (footprint "Lambley:0603-1608M")
     )
+    (path "/44137c28-2258-47a5-b635-260660b262fa/e61c70f3-7a31-49ed-95af-8b0e6d1c67f1"
+      (reference "C26") (unit 1) (value ".01u") (footprint "Lambley:0603-1608M")
+    )
     (path "/5932da16-ecb6-4a2e-99f7-7e99d2c34c83/619a7256-b632-4110-b34f-3a4c2331734b"
       (reference "D1") (unit 1) (value "LED1") (footprint "Lambley:0603-1608M")
     )
@@ -643,13 +646,13 @@
       (reference "R14") (unit 1) (value "0-DNP") (footprint "Lambley:0603-1608M")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/36087877-8ccf-43f0-bce6-5b2e201bfe1b"
-      (reference "R15") (unit 1) (value "4.7K") (footprint "Lambley:0603-1608M")
+      (reference "R15") (unit 1) (value "4.7k") (footprint "Lambley:0603-1608M")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/2d6b1f2e-f655-4dee-b382-336e46982e0d"
-      (reference "R16") (unit 1) (value "4.7K") (footprint "Lambley:0603-1608M")
+      (reference "R16") (unit 1) (value "4.7k") (footprint "Lambley:0603-1608M")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/fa95b5b2-fcde-4196-b2f7-e6aeea5007d4"
-      (reference "R17") (unit 1) (value "4.7K") (footprint "Lambley:0603-1608M")
+      (reference "R17") (unit 1) (value "4.7k") (footprint "Lambley:0603-1608M")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/8341514b-8f15-4957-8abb-81803570aa80"
       (reference "R18") (unit 1) (value "33") (footprint "Lambley:0603-1608M")
@@ -667,19 +670,16 @@
       (reference "R22") (unit 1) (value "33") (footprint "Lambley:0603-1608M")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/3d4e67a5-00f9-4e8a-9040-3ffc89d6d22b"
-      (reference "R23") (unit 1) (value "4.7K") (footprint "Lambley:0603-1608M")
+      (reference "R23") (unit 1) (value "4.7k") (footprint "Lambley:0603-1608M")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/ded16202-5fd3-4615-86dd-a866581c2a9a"
       (reference "R24") (unit 1) (value "1.5K") (footprint "Lambley:0603-1608M")
     )
-    (path "/44137c28-2258-47a5-b635-260660b262fa/26cded9a-fffb-4f4b-9b14-15b0147ffa58"
-      (reference "R25") (unit 1) (value "0.01u") (footprint "Lambley:0603-1608M")
-    )
     (path "/44137c28-2258-47a5-b635-260660b262fa/6bfe6dda-7b47-4d21-9747-6fde32995375"
-      (reference "R26") (unit 1) (value "4.7K") (footprint "Lambley:0603-1608M")
+      (reference "R26") (unit 1) (value "4.7k") (footprint "Lambley:0603-1608M")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/ef02fb43-2dca-43b2-8186-5c29c6d18ae0"
-      (reference "R27") (unit 1) (value "4.7K") (footprint "Lambley:0603-1608M")
+      (reference "R27") (unit 1) (value "4.7k") (footprint "Lambley:0603-1608M")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/b3b3e9b3-eaad-489a-aea8-326f7e06e1f5"
       (reference "R28") (unit 1) (value "33") (footprint "Lambley:0603-1608M")
@@ -715,7 +715,7 @@
       (reference "SW1") (unit 1) (value "Reset Button") (footprint "ul_PTS647SK38SMTR2LFS:PTS647SK38SMTR2LFS")
     )
     (path "/5932da16-ecb6-4a2e-99f7-7e99d2c34c83/e3660c87-f136-48b7-827e-a46314476ce8"
-      (reference "U1") (unit 1) (value "PIC32MX775F256L-80I{slash}PT") (footprint "ul_PIC32MX775F256L-80I-PT:PIC32MX775F256L-80I&slash_PT")
+      (reference "U1") (unit 1) (value "PIC32MX775F256L-80I{slash}PT") (footprint "ul_PIC32MX764F128L-I-PF:PIC32MX764F128L-I&slash_PF")
     )
     (path "/c261081f-1e20-46c7-a3c1-b57b56fa9048/567afb49-0888-444e-a549-41c128b54c8d"
       (reference "U2") (unit 1) (value "AZ1117EH-3.3TRG1") (footprint "ul_AZ1117EH-3-3TRG1:AZ1117EH-3.3TRG1")

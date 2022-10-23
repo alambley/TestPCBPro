@@ -3195,7 +3195,7 @@
     (property "Value" "PIC32MX775F256L-80I{slash}PT" (id 1) (at 145.415 18.415 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "ul_PIC32MX775F256L-80I-PT:PIC32MX775F256L-80I&slash_PT" (id 2) (at 142.24 19.304 0)
+    (property "Footprint" "ul_PIC32MX764F128L-I-PF:PIC32MX764F128L-I&slash_PF" (id 2) (at 142.24 19.304 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 72.39 25.4 0)
