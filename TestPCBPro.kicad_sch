@@ -71,6 +71,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 7077bcc7-6b52-47e4-9006-0ce5980de705)
   )
+  (wire (pts (xy 112.395 128.27) (xy 125.73 128.27))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 708105e9-76a8-4906-96af-c9a032e6446d)
+  )
   (wire (pts (xy 148.59 109.22) (xy 166.37 109.22))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 7b72c8b6-18f7-46bc-a20a-a356925047ba)
@@ -144,7 +148,11 @@
     )
     (pin "RX_ER" bidirectional (at 112.395 126.365 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid feb42993-c8b8-4c00-82f9-d45deb7df76d)
+      (uuid 775e0d9d-3b55-477c-b8b5-de779061bd80)
+    )
+    (pin "MDIO" bidirectional (at 112.395 128.27 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 4d6eb422-f145-43df-86cb-d9f910cadedf)
     )
   )
 
@@ -217,6 +225,10 @@
     (pin "CRS_DV" bidirectional (at 125.73 124.46 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid f28f0153-6ef5-4bba-b23e-dccfd6b58d14)
+    )
+    (pin "MDIO" bidirectional (at 125.73 128.27 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid c84bb1dd-68b9-4bca-94ea-2995f03c4ae2)
     )
   )
 
@@ -444,7 +456,7 @@
     (path "/44137c28-2258-47a5-b635-260660b262fa/cae980ba-a089-48a3-8286-f7dab99fbe85"
       (reference "#PWR0157") (unit 1) (value "GND") (footprint "")
     )
-    (path "/44137c28-2258-47a5-b635-260660b262fa/68331111-3d3c-4f02-890f-975371174738"
+    (path "/44137c28-2258-47a5-b635-260660b262fa/d312c0f2-9b73-4011-af94-ea1864805c4f"
       (reference "#PWR0158") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/102c26a2-0734-47e3-b6e8-6f50eafea7e0"
@@ -458,9 +470,6 @@
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/9c686b1b-3601-430b-8458-b6105cebc06a"
       (reference "#PWR0162") (unit 1) (value "VDDA") (footprint "")
-    )
-    (path "/44137c28-2258-47a5-b635-260660b262fa/78acec26-d903-4621-be90-8ac90744f5c7"
-      (reference "#PWR0163") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/2661f98d-9edc-4487-b234-a0273f10ca14"
       (reference "#PWR0164") (unit 1) (value "GND") (footprint "")
@@ -641,9 +650,6 @@
     )
     (path "/ce8ff7c6-5fe0-4e3a-8394-6f46e09bd82e/870ba357-661b-4a5a-bd55-a5088820c012"
       (reference "R13") (unit 1) (value "10K") (footprint "Lambley:0603-1608M")
-    )
-    (path "/44137c28-2258-47a5-b635-260660b262fa/bc0f0ad0-f7be-4b0e-acac-434c4f78932b"
-      (reference "R14") (unit 1) (value "0-DNP") (footprint "Lambley:0603-1608M")
     )
     (path "/44137c28-2258-47a5-b635-260660b262fa/36087877-8ccf-43f0-bce6-5b2e201bfe1b"
       (reference "R15") (unit 1) (value "4.7k") (footprint "Lambley:0603-1608M")
